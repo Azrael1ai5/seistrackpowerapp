@@ -9,7 +9,7 @@ import os
 col1, col2 = st.columns([1, 4])
 with col1:
     # Replace with the correct path or URL for your logo image.
-    st.image("https://github.com/Azrael1ai5/seistrackpowerapp/blob/main/LOGO%20DARK%20BACKGROUND.png", width=120)
+    st.image("https://github.com/Azrael1ai5/seistrackpowerapp/blob/main/LOGO.png", width=120)
 with col2:
     st.title("Seistrack Power Analysis")
     st.markdown("Created By: Eric G. Bundalian")
