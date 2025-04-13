@@ -13,6 +13,7 @@ with col1:
 with col2:
     st.title("Seistrack Power Analysis")
     st.markdown("Created By: Eric G. Bundalian")
+    st.markdown("Note: This APP is calibrated for GOODWE INVERTERS only")
 
 st.markdown(
     """
