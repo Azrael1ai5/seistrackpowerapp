@@ -7,16 +7,18 @@ import os
 # Title with Logo/Icon
 # ----------------------------------------------------------------------
 col1, col2 = st.columns([1, 4])
+
 with col1:
-    # Replace with the correct path or URL for your logo image.
-st.markdown(
-    """
-    <div style="display: flex; justify-content: center;">
-        <img src="https://raw.githubusercontent.com/Azrael1ai5/seistrackpowerapp/main/LOGO.png" width="120">
-    </div>
-    """, unsafe_allow_html=True
+    # Center the image using HTML within st.markdown.
+    st.markdown(
+        """
+        <div style="display: flex; justify-content: center;">
+            <img src="https://raw.githubusercontent.com/Azrael1ai5/seistrackpowerapp/main/LOGO.png" width="120">
+        </div>
+        """, unsafe_allow_html=True
     )
 
+with col2:
     st.title("Seistrack Power Analysis")
     st.markdown("Created By: Eric G. Bundalian")
     st.markdown("Note: This APP is calibrated for GOODWE INVERTERS only")
