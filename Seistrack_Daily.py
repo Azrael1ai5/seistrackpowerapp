@@ -431,7 +431,7 @@ else:
     # ----------------------------------------------------------------------
     # Display Selected Time Range Under the Donut Chart
     # ----------------------------------------------------------------------
-    selected_start = total_time_range[0].strftime("%b %d : %Y %H:%M:%S")
+    selected_start = total_time_range[0].strftime("%b %d , %Y : %H:%M:%S")
     selected_end = total_time_range[1].strftime("%H:%M:%S")
     st.markdown(f"**Selected Time Range:** {selected_start}  to  {selected_end}")
 
