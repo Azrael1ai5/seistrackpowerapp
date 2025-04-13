@@ -9,8 +9,14 @@ import os
 col1, col2 = st.columns([1, 4])
 with col1:
     # Replace with the correct path or URL for your logo image.
-    st.image("https://raw.githubusercontent.com/Azrael1ai5/seistrackpowerapp/main/LOGO.png", width=120)
-with col2:
+st.markdown(
+    """
+    <div style="display: flex; justify-content: center;">
+        <img src="https://raw.githubusercontent.com/Azrael1ai5/seistrackpowerapp/main/LOGO.png" width="120">
+    </div>
+    """, unsafe_allow_html=True
+    )
+
     st.title("Seistrack Power Analysis")
     st.markdown("Created By: Eric G. Bundalian")
     st.markdown("Note: This APP is calibrated for GOODWE INVERTERS only")
